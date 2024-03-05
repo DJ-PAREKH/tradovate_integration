@@ -1,0 +1,87 @@
+@import "../../../App.css";
+
+.signup-box {
+  width: 32%;
+  background: linear-gradient(0deg, var(--solid-color), var(--solid-color)),
+    linear-gradient(
+      0deg,
+      var(--transparent-color-4),
+      var(--transparent-color-4)
+    );
+  border-radius: 10px;
+  margin: 0 auto;
+}
+.center-box .d-flex {
+  min-height: 100vh;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .signup-box {
+    width: 80%;
+    margin-top: 50px;
+  }
+}
+
+.Plus-jakarta-text {
+  color: var(--text-color);
+  font-family: var(--Plus-Jakarta-font);
+  font-size: 16px;
+}
+.clash-text {
+  font-family: var(--clash-display);
+  font-size: 24px;
+  color: var(--text-color);
+}
+.form-label {
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  color: white;
+  font-family: "Plus Jakarta Sans";
+}
+.form-control {
+  background: linear-gradient(0deg, #3c3b3b, #444343),
+    linear-gradient(0deg, rgba(199, 215, 248, 0.08), rgba(199, 215, 248, 0.08));
+  box-shadow: 0px 1px 2px 0px #1018280d;
+  line-height: 2 !important;
+  border-radius: 4px !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.custom-input {
+  color: #ffffffe5 !important;
+}
+.custom-input::placeholder {
+  color: #ffffffe5 !important;
+}
+option {
+  color: white;
+  background-color: #434040;
+}
+.btn-close {
+  color: #fff !important;
+  opacity: 1 !important;
+}
+
+.form-control:focus {
+  color: none !important;
+  background-color: none;
+  border-color: none !important;
+  outline: 0;
+  border: none !important;
+  border-radius: 0.1px solid;
+}
+button.btn.btn-secondary {
+  border-radius: 0.2rem;
+  background-color: #f04831;
+  border: #f04831 !important;
+}
+button.btn.btn-secondary:active {
+  border-radius: 0.2rem;
+  background-color: #f04831;
+}
+button.btn.btn-secondary:focus {
+  border-radius: 0.2rem;
+  background-color: #f04831;
+}

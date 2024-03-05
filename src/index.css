@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black !important;
+  /* background-image: url("./Assets/hand-background.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: cover;
+  align-items: right; */
+  /* background-size: 50%; */
+}
+
+
+@media (max-width: 768px) {
+  body {
+    background-size: 50%; /* Adjust for smaller screens if needed */
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

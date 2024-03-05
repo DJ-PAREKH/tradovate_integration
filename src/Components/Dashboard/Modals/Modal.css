@@ -1,0 +1,81 @@
+@import "../../../App.css";
+
+.modal-content {
+  background: linear-gradient(
+      var(--transparent-color-4),
+      var(--transparent-color-4)
+    ),
+    var(--solid-color) !important;
+  box-shadow: 0px 4px 14px 0px #00000029;
+  padding: 10px;
+}
+.modal-title {
+  color: white !important;
+}
+.modal-header {
+  border-bottom: none !important;
+}
+.tab-content {
+  position: absolute;
+  width: 100%;
+}
+.form-label {
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  color: white;
+  font-family: "Plus Jakarta Sans";
+}
+.form-control {
+  background: linear-gradient(
+      var(--transparent-color-8),
+      var(--transparent-color-8)
+    ),
+    var(--solid-color);
+  box-shadow: 0px 1px 2px 0px #1018280d;
+  line-height: 2 !important;
+  border-radius: 4px !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.custom-input {
+  color: #ffffffe5 !important;
+}
+.custom-input::placeholder {
+  color: #ffffffe5 !important;
+}
+option {
+  color: white;
+  background-color: #434040;
+}
+.btn-close {
+  color: #fff !important;
+  opacity: 1 !important;
+}
+
+.form-control:focus {
+  color: none !important;
+  background-color: none;
+  border-color: none !important;
+  outline: 0;
+  border: none !important;
+  border-radius: 0.1px solid;
+}
+button.btn.btn-secondary {
+  border-radius: 0.2rem;
+  background-color: #f04831;
+}
+.cancle-button {
+  color: white !important;
+}
+button.btn.cancle-button {
+  background: none;
+  border: none;
+}
+button.btn.cancle-button:focus {
+  background: none;
+  border: none;
+}
+.custom-radio {
+  color: white;
+}
